@@ -1,0 +1,42 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid black;
+    padding: 10px;
+}
+header h1 {
+    margin-bottom: 20px;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.image-banner img {
+    width: 100%;
+    background-size: contain;
+}
+
+.article-section {
+    padding: 20px;
+    display: flex;
+    gap: 1em;
+}
+
+.kanan img {
+    width: 100px;
+    float: left;
+    margin: 15px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}

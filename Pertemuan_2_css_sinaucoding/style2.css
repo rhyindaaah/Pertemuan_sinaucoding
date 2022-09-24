@@ -1,0 +1,126 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.atas {
+    display: flex;
+    background-color: hsl(17, 91%, 86%);
+    position: relative;
+}
+
+.bawah {
+    background-color: rgb(76, 88, 247);
+    display: flex;
+    position: relative;
+}
+
+.atas .kiri {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background-image: url(logo\ html.png);
+    background-repeat: repeat-y;
+    background-size: 220px;
+}
+.atas .kanan {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.atas .kanan h3 {
+    text-align: center;
+    color: orangered;
+}
+
+.atas .kanan img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.atas .kanan ul {
+    text-align: center;
+}
+.atas .kanan ul li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.atas .kanan p {
+    text-align: center;
+}
+
+.atas .kanan button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orangered  ;
+    color: white;
+    border-color: black;
+}
+
+
+.bawah .kiri {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background-image: url(CSS3_logo.svg.png);
+    background-repeat: repeat-y;
+    background-size: 220px;
+}
+.bawah .kanan {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.bawah .kanan h3 {
+    text-align: center;
+    color: orangered;
+}
+
+.bawah .kanan img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bawah .kanan ul {
+    text-align: center;
+}
+.bawah .kanan ul li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bawah .kanan p {
+    text-align: center;
+}
+
+.bawah .kanan button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue  ;
+    color: white;
+    border-color: black;
+}
